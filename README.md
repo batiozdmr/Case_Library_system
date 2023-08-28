@@ -43,7 +43,7 @@ python -m venv venv
     ```
 
 3. Gerekli Python paketlerini yüklemek için aşağıdaki komutu kullanın:
-   ```
+```
    pip install -r requirements.txt
 ```
 
