@@ -65,10 +65,6 @@ python manage.py runserver
 
 8. Tarayıcınızda `http://localhost:8000` adresine giderek uygulamayı görüntüleyebilirsiniz.
 
-## Kullanım
-
-Projenin nasıl kullanılacağına dair adımları burada belirtin. Örnek kullanım senaryoları sunabilirsiniz.
-
 ## Katkıda Bulunma
 
 Eğer projeye katkıda bulunmak istiyorsanız, adımları ve kuralları belirtin.
