@@ -79,9 +79,4 @@ Eğer projeye katkıda bulunmak istiyorsanız, adımları ve kuralları belirtin
 
 Bu proje MIT Lisansı altında lisanslanmıştır. [Lisans Dosyası](LICENSE).
 
----
-
-Proje ile ilgili daha fazla bilgi ve dokümantasyon eklemek isteyebilirsiniz. İnsanların projenizi anlaması, kullanması ve katkıda bulunması için mümkün olduğunca ayrıntılı olmaya çalışın.
-
-
 
