@@ -1,0 +1,26 @@
+<header class="p-3 text-bg-dark">
+    <div class="container">
+        <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
+            <a href="/" class="d-flex align-items-center mb-2 mb-lg-0 text-white text-decoration-none">
+                <img src="{{ site_settings.logo.url }}" alt="" class="bi me-2" width="100">
+            </a>
+
+            <ul class="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0">
+                {% for item in menu %}
+                    <li><a href="{{ item.link }}" class="nav-link px-2 text-white">{{ item.name }}</a></li>
+                {% endfor %}
+
+            </ul>
+
+
+            <div class="text-end">
+                {% if not request.user %}
+                    <a href="{% url 'account_login' %}" class="btn btn-outline-light me-2">Üye Girişi</a>
+                    <a href="{% url 'account_signup' %}" class="btn btn-warning">Üye Ol</a>
+                {% else %}
+                    <a href="{% url 'book_create' %}" class="btn btn-warning">Kitap Ekle</a>
+                {% endif %}
+            </div>
+        </div>
+    </div>
+</header>
